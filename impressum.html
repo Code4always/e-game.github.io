@@ -34,14 +34,51 @@
 <!-- body -->
 
 <body class="main-layout">
+    <!-- header -->
+    <header class="section">
+        <!-- header inner -->
+        <div class="header_main">
+            <div class="header_main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                            <div class="full">
+                                <div class="center-desk">
+                                    <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                            <div class="menu-area">
+                                <div class="limit-box">
+                                    <nav class="main-menu">
+                                        <ul class="menu-area-main">
+                                            <li> <a href="index.html">Home</a> </li>
+                                            <li> <a href="function.html">Function</a> </li>
+                                            <li><a href="video.html">Video</a></li>
+                                            <li><a href="support.html">Support</a></li>
+                                            <li><a href="about.html">about</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header inner -->
+    </header>
+    <!-- end header -->
 
     <div id="plant" class="contact_us layout_padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 ">
                     <div class="titlepage">
-                        <h2 style="text-align: center; margin-top: 45px;">Impressum<strong
-                                style="color: #111315;"></strong></h2>
+                        <h2 style="text-align: center; margin-top: 45px;">impressum<strong style="color: #111315;"></strong>
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -53,19 +90,57 @@
             <div class="row">
                 <div class="col-sm-12">
                     <p>Alienware Monitor</p>
-                    <p>XYZ Street</p>
-                    <p>12345 City</p>
-                    <p>Country</p>
-                    <p>Phone: +1234567890</p>
+                    <p>kirchbachstrasse 10</p>
+                    <p>8600 Dübendorf</p>
+                    <p>Schweiz</p>
+                    <p>Phone: +41 77 00 00 000</p>
                     <p>Email: info@alienwaremonitor.com</p>
                     <p>Website: www.alienwaremonitor.com</p>
-                    <p>Managing Director: John Doe</p>
-                    <p>Trade register number: 123456</p>
+                    <p>Managing Director: Noel Doe</p>
+                    <p>Trade register number: 976768</p>
                     <p>VAT ID: DE123456789</p>
                 </div>
             </div>
         </div>
     </div>
+    <!-- end Our  about -->
+
+    <!-- footer start-->
+    <div id="plant" class="footer layout_padding">
+        <div class="container">
+            <p>© 2023 <a href="/impressum.html">impressum</a></p>
+        </div>
+    </div>
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript -->
+    <script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".fancybox").fancybox({
+                openEffect: "none",
+                closeEffect: "none"
+            });
+
+            $(".zoom").hover(function () {
+
+                $(this).addClass('transition');
+            }, function () {
+
+                $(this).removeClass('transition');
+            });
+        });
+
+    </script>
+
 
 </body>
 

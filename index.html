@@ -76,11 +76,10 @@
                   <div class="row marginii">
                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="carousel-caption ">
-                           <h1>Welcome to <strong class="color">E-Game</strong></h1>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                              suffered alteration in some form, by injected humour</p>
-                           <a class="btn btn-lg btn-primary" href="#" role="button">Buy Now</a>
-                           <a class="btn btn-lg btn-primary" href="function.html" role="button">About </a>
+                           <h1>Willkommen bei <strong class="color">E-Game</strong></h1>
+                           <p>Die Alienware AW2420HF ist ein 24-Zoll-Gaming-Monitor, der von der Firma Dell hergestellt wird. Er ist Teil der Alienware-Linie, die für hochwertige Gaming-Ausrüstung bekannt ist.</p>
+                           <a class="btn btn-lg btn-primary" id="buy" href="#" role="button" onclick="myFunction()">Jetzt Kaufen</a>
+                           <a class="btn btn-lg btn-primary" href="function.html" role="button">Beschreibung</a>
                         </div>
                      </div>
                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -94,44 +93,10 @@
          </div>
       </div>
    </section>
-   <dialog class="openImpressum" id="openImpressum">
-      <div id="plant" class="contact_us layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12 ">
-                  <div class="titlepage">
-                     <h2 style="text-align: center; margin-top: 45px;">Impressum<strong
-                           style="color: #111315;"></strong></h2>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-
-      <div class="section Clients_2 layout_padding padding-top_0">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <p>Alienware Monitor</p>
-                  <p>XYZ Street</p>
-                  <p>12345 City</p>
-                  <p>Country</p>
-                  <p>Phone: +1234567890</p>
-                  <p>Email: info@alienwaremonitor.com</p>
-                  <p>Website: www.alienwaremonitor.com</p>
-                  <p>Managing Director: John Doe</p>
-                  <p>Trade register number: 123456</p>
-                  <p>VAT ID: DE123456789</p>
-                  <button class="closeImpressum">Close</button>
-               </div>
-            </div>
-         </div>
-      </div>
-   </dialog>
    <!-- footer start-->
    <div id="plant" class="footer layout_padding">
       <div class="container">
-         <p >© 2023 <a class="open" href="https://impressum.html/">impressum</a></p>
+         <p >© 2023 <a class="open" href="/impressum.html">impressum</a></p>
       </div>
    </div>
 
@@ -141,6 +106,7 @@
    <script src="js/bootstrap.bundle.min.js"></script>
    <script src="js/jquery-3.0.0.min.js"></script>
    <script src="js/plugin.js"></script>
+   <script src="js/script.js"></script>
    <!-- sidebar -->
    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
    <script src="js/custom.js"></script>
@@ -148,6 +114,9 @@
    <script src="js/owl.carousel.js"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
    <script>
+      function myFunction() {
+         alert("Zum Warenkorb hinzugefügt");
+      }
       $(document).ready(function () {
          $(".fancybox").fancybox({
             openEffect: "none",

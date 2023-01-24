@@ -35,6 +35,11 @@ body {
      overflow-x: hidden;
 }
 
+.impressum{
+     padding: 1em;
+     max-width: 50ch;
+}
+
 
 
 a {
@@ -2292,8 +2297,8 @@ line-height: 30px;
 .john_text {
     width: 100%;
     float: left;
-    font-size: 22px;
-    color: #000;
+    font-size: 42px;
+    color: white;
     text-align: center;
     margin-top: 20px;
     padding-bottom: 35px;
@@ -2309,7 +2314,7 @@ line-height: 30px;
      margin: 0 auto;
      position: relative;
      color: #fffcf4;
-     padding-top: 33px!important;
+     padding: 33px!important;
 
 }
 .icon_image{
