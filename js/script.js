@@ -1,0 +1,1 @@
+const openImpressum = document.querySelector('impressum');
